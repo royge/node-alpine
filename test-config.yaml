@@ -3,11 +3,11 @@ commandTests:
   - name: "node installation"
     command: "which"
     args: ["node"]
-    expectedOutput: ["/usr/bin/node\n"]
+    expectedOutput: ["/usr/local/bin/node\n"]
 
   - name: "node version"
     command: "node"
-    args: ["version"]
+    args: ["--version"]
     expectedOutput: ["v9.*\n"]
 
   - name: "ssh client installation"
