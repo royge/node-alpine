@@ -1,0 +1,16 @@
+schemaVersion: '2.0.0'
+commandTests:
+  - name: "node installation"
+    command: "which"
+    args: ["node"]
+    expectedOutput: ["/usr/bin/node\n"]
+
+  - name: "node version"
+    command: "node"
+    args: ["version"]
+    expectedOutput: ["v9.*\n"]
+
+  - name: "ssh client installation"
+    command: "which"
+    args: ["ssh"]
+    expectedOutput: ["/usr/bin/ssh\n"]
