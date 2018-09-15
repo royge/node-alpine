@@ -1,5 +1,5 @@
 build:
-	docker build -t node:latest .
+	docker build --pull -t node:latest .
 	docker tag node:latest royge/node:latest
 
 push:
