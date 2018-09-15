@@ -8,7 +8,7 @@ commandTests:
   - name: "node version"
     command: "node"
     args: ["--version"]
-    expectedOutput: ["v9.*\n"]
+    expectedOutput: ["v10.*\n"]
 
   - name: "ssh client installation"
     command: "which"

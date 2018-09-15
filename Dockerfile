@@ -1,5 +1,5 @@
-# The base image is node 9 alpine
-FROM node:9-alpine
+# The base image is node 10 alpine
+FROM node:10-alpine
 
 # Author: Roy Evangelista
 MAINTAINER Roy Evangelista <royevangelista@gmail.com>
